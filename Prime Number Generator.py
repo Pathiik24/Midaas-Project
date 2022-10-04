@@ -56,7 +56,7 @@ try:
     #----> ALGORITHM 03---------------------------------------------------------------------------------------------------------------------
     ti3 = time.time()                           #---> Initializing run time for algo 3
     if sel_algo==3:
-       eratos = ([i for i in sym.sieve.primerange(L,U)]) #---> 
+       eratos = ([i for i in sym.sieve.primerange(L,U)]) #---> Prime Numbers through sieve of eratosthenes method using SymPy Library
        primelist.append(eratos)
        print(f"Prime Numbers between {L} & {U} are\n{primelist}")
     tf3=time.time()                             #---> Ending run time
